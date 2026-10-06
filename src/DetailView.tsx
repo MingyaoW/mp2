@@ -37,7 +37,6 @@ function DetailView() {
         setLoading(false)
         return
     }
-
     setLoading(true)
     setError(false)
     const detailRequest = axios.get(
